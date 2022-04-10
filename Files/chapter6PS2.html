@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            list-style: none;
+            padding: 17px 20px;
+        }
+        
+        nav ul{
+            display: flex;
+            background-color:purple;
+            color: white;
+            justify-content: flex-end;
+            height: 60px;
+            position:relative;
+            font-size: 20px;
+            
+            
+        }
+        .img{
+            position: absolute;
+            top:0;
+            height:50px;
+            padding: 5px;
+             }
+
+        .container{
+            display: flex;
+            /* justify-content: space-between; */
+        }
+        .a,.b,.c{
+            margin: 0px 100px;
+            height: 400px;
+            width:400px;
+            background-color: rgb(34, 128, 235);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contacts</li>
+            </ul>
+            <img src="login.png" alt="no pic" class="img">
+        </nav>
+    </header>
+      <img src="pic.jpg" alt="img" height="300px" width="100%">
+     <div class="container">
+      <div class="a">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi neque inventore ipsam, ipsum voluptatem qui nisi perferendis corporis nemo placeat accusantium assumenda debitis possimus similique deleniti non hic voluptas, maiores, eum nobis amet iste!</div>
+     <div class="b">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ullam neque, nostrum officia sapiente cupiditate porro explicabo quas? Ea, ullam eos temporibus id, autem esse nam consequatur praesentium voluptatem tempora perspiciatis repellat voluptas placeat totam sint. Doloremque quaerat dolor temporibus?</div>
+     <div class="c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptas quam exercitationem dolore. Distinctio voluptate molestias sapiente facilis, dignissimos dolores, eius quasi dicta sed perspiciatis saepe maxime eligendi quas libero similique tenetur accusantium commodi? Fugit error modi, fuga facilis voluptas eveniet animi dolorem magni reiciendis nihil similique sit itaque quidem?</div>
+    </div>
+</body>
+</html>
